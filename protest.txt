@@ -1,0 +1,39 @@
+========================HƯỚNG DẪN SỬ DỤNG GIT CƠ BẢN VÀ NÂNG CAO====================
+1. Một số khái niệm cơ bản
+- Git là gì ?
+=> Một phiên bản phân tá, quản lý source code trên Linux, lưu trạng thái của file (project) dưới dạng lịch sử 
+
+- Repository là gì?
+Remote repository
+Local repository
+2. Các câu lệnh
+- Kiểm tra phiên bản git hiện tại :
+git version 
+-cấu hình git ban đầu:
+git config 
+git config --help
+git help config
+
+git config --global user.name = ""
+git config --global user.name = ""
+
+-Tạo 1 thư mục project 
+-Tạo một file test.txt
+
+git init
+
+git status
+
+git add .
+git add <file_name>
+
+git status
+
+git commit -m "commit to repository"
+
+Lệnh viết tắt:
+git commit -a -m "commit to repository"
+
+git log
+
+
